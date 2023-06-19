@@ -8,6 +8,7 @@ def FindSq(a, b):
             if(a[i] == b[j]):
                 output += a[i]
                 bPointer = j
+                break
     print(output)
 
 a = input()
